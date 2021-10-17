@@ -1,0 +1,157 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    background-color: #1f2937;
+    color: antiquewhite;
+}
+
+.belowHeader-container {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    background: #1f2937;
+    color: antiquewhite;
+}
+
+.banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.bannerText-2 {
+    display: flex;
+    align-self: flex-start;
+    max-width: fit-content;
+    flex-wrap: wrap;
+    margin-top: -30px;
+}
+
+.banner .signupButtonOne {
+    display: flex;
+    padding: 5px;
+    background-color: #3882f6;
+    color: antiquewhite;
+    border: solid antiquewhite 0px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin-left: -131px;
+    margin-top: -30px;
+}
+
+.greenRectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    background-color:lightseagreen ;
+    margin: 30px;
+}
+
+.randomDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.squareOne,
+.squareTwo,
+.squareThree,
+.squareFour {
+    border: solid 2px magenta;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 19px;
+    margin-top: 16px;
+}
+
+.sqSection-container {
+    height: 330px;
+    max-height: 350px;
+    margin-top: 16px;
+}
+
+.randomDiv h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quoteSection-container {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    
+}
+
+.quote p {
+    font-size: 26px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+.quote .p-two {
+    display: flex;
+    justify-content: flex-end;    
+    font-style: normal; 
+    margin-right: 37px;
+}
+
+.signupDiv {
+    background-color: #3882f6;
+    width: 900px;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+    margin-left: 210px;
+    border-radius: 16px;
+}
+
+.signupDiv .callAction-text {
+    font-weight: bolder;
+    font-size: 20px;
+    max-width: 390px;
+    color:antiquewhite;
+}
+
+.signupDiv .footer {
+    justify-content: flex-start;
+    align-items: flex-end;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+
+
+.signupButtonTwo {
+    background-color: #3882f6;
+    color: antiquewhite;
+    border: solid antiquewhite 2px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 6px;
+    margin-right: 10px;
+}
